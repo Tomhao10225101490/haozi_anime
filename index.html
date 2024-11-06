@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">我的主页</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">主页</a></li>
+                <li><a href="about.html">关于我</a></li>
+                <li><a href="portfolio.html">作品集</a></li>
+                <li><a href="contact.html">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="carousel-section">
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/1.jpg" alt="个人照片1">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2.jpg" alt="个人照片2">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/3.jpg" alt="个人照片3">
+                </div>
+            </div>
+            <button class="carousel-prev">&lt;</button>
+            <button class="carousel-next">&gt;</button>
+        </div>
+    </section>
+
+    <section class="welcome-section">
+        <div class="container">
+            <h1>欢迎来到我的个人网站</h1>
+            <p>这里是我展示个人作品和分享经验的地方</p>
+            <div class="welcome-features">
+                <div class="feature">
+                    <i class="fas fa-code"></i>
+                    <h3>Web开发</h3>
+                    <p>专注于前端技术开发</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI设计</h3>
+                    <p>注重用户体验与界面设计</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>响应式设计</h3>
+                    <p>适配各种设备的界面开发</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="latest-works">
+        <div class="container">
+            <h2>最新作品</h2>
+            <div class="works-preview">
+                <div class="work-item">
+                    <img src="https://picsum.photos/300/200?random=4" alt="最新作品1">
+                    <h3>项目展示1</h3>
+                    <p>查看详情 →</p>
+                </div>
+                <div class="work-item">
+                    <img src="https://picsum.photos/300/200?random=5" alt="最新作品2">
+                    <h3>项目展示2</h3>
+                    <p>查看详情 →</p>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="portfolio.html" class="btn">查看更多作品</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 个人主页. 保留所有权利.</p>
+            <p>联系方式：example@email.com</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
